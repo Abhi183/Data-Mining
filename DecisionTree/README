@@ -1,0 +1,15 @@
+This link UCI Machine Learning Repository(https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset): Dry Bean Dataset Data Set contains different features and measurements to different types of dry beans. The data contains 13611 records from seven different classes of dry beans: (Seker, Barbunya, Bombay, Cali, Dermosan, Horoz and Sira). 
+
+I performed the following steps:
+
+1-        Downloaded the file from the website and then read the data into DataFrame called DF.
+
+2-        Chose the target attribute.
+
+3-        Divided the data into two subsets: training set (70% of the records from each class) and testing set (30% of the records from each class and different from the training data).
+
+4-        Using training set, built the decision tree based on gini index or Entropy measrue and measured the training error.
+
+5-        Using testing set, computed the accuracy for the decision tree and measured the testing error
+
+6-        Discussed the underfitting and overfitting by modifying the number of the nodes in the tree and Compared between the training error and testing error.
