@@ -1,0 +1,13 @@
+This link (https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset) contains different features and measurements to different types of dry beans. 
+
+Performed the following steps:
+
+1-    Downloaded the file from the website and then read the dataset file into DataFrame called DF.
+
+2-    Described the type of the attributes of the data.
+
+3-    Divided the data into two subsets: training set (70% of the records from each class) and testing set (30% of the records from each class and different from the training data).
+
+4-   Using training set, developed a classifier based on Artificial Neural Network (ANN) to classify the type of the seeds
+
+5-    Using testing set, computed the accuracy of your ANN model and calculated the testing error?
