@@ -1,0 +1,12 @@
+This link (https://archive.ics.uci.edu/ml/datasets/seeds) contains measurements of geometrical properties of kernels belonging to three different varieties of wheat. 
+I performed the following steps:
+
+ 1-        Downloaded the file from the website and then read the data into DataFrame called DF.
+
+2-        Chose the target attribute.
+
+3-        Divided the data into two subsets: training set (50 records from each class) and testing set (20 records from each class).
+
+4-        Using training set, built the SVM model to classify the target attribute.
+
+5-        Using testing set, computed the accuracy for the SVM model and measured the testing error
