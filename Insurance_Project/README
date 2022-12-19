@@ -1,0 +1,13 @@
+DATASET:(https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv)
+Total records: 1338
+Attributes: age,sex,bmi,children, smoker, region, charges
+Since “charges” is continuous, we classified into 4 classes (“Tier 0”,“Tier 1”,“Tier 2”,“Tier 3”)
+Update attributes region (“southwest”: 1 and “northwest”: 0) and sex (“male”: 1 and “female”: 0)
+
+TECHNIQUES USED:
+Decision Tree, Naive Bayes Classifier(NBC), Support Vector Machine(SVM),
+Artificial Neural Network(ANN), K-mean Clustering
+
+DATA CLASSIFICATION:
+_ For training: 80% of the data use for training model
+_ For testing: 20% of the data use for testing
